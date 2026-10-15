@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# raw data is downloaded by `make data`; tracking store and artifacts are rebuilt by the sweep
+data/raw/
+mlflow.db
+mlartifacts/
+mlruns/
